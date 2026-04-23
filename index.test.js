@@ -39,7 +39,7 @@ describe("sumDouble", function () {
   });
 });
 
-describe.only("makes10", function () {
+describe("makes10", function () {
   it("is true when first number is 10", function () {
     expect(makes10(10, 0)).toBe(true);
   });
@@ -92,7 +92,7 @@ describe("near100", function () {
   });
 });
 
-describe("isMultiple35", function () {
+describe.only("isMultiple35", function () {
   it("is true for a multiple of 3 only", function () {
     expect(isMultiple35(3)).toBe(true);
     expect(isMultiple35(9)).toBe(true);
